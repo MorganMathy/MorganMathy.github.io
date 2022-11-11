@@ -61,3 +61,7 @@ span {
     justify-content: space-between;
     
 }
+
+img {
+    filter: grayscale(10);
+}
