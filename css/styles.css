@@ -1,0 +1,63 @@
+/* Utilities */
+* {
+    font-family: 'Love Light', cursive;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Love Light', cursive;
+    color: whitesmoke;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+     
+}
+.citations {background-color: rgba(202, 136, 147, 0.303);
+    border: 2px solid rgba(202, 136, 147);
+
+}
+.citations p{
+    font-family: 'Satisfy', cursive;
+      font-size: 2em;
+    text-align: center;
+    padding: 2em;
+}
+
+aside {
+    text-align: right;
+    font-size: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    font-family: arial;
+    }
+
+span {
+    font-style: italic;
+}
+
+.photos
+{ display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    margin-top: 3em;
+    
+    }
+
+.photos__image
+{   
+    border: 2px solid black;
+    width: 22%;
+    margin: 10px;
+    justify-content: space-between;
+    
+}
