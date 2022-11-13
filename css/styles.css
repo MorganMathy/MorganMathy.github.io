@@ -1,67 +1,39 @@
-/* Utilities */
-* {
-    font-family: 'Love Light', cursive;
-}
 
 body {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-
+    background-color:rgb(104, 179, 223);
+}
+/* Header */
+header{
+    background-color: rgb(78, 146, 211);
+    border-bottom: 4px solid rgb(13, 110, 201);
+    text-align: center;
 }
 
-.container {
-    width: 60%;
-    margin: auto;
-}
-
-h1 {
+h1 { font-size: 5em;
     font-family: 'Love Light', cursive;
-    color: whitesmoke;
-    font-size: 5em;
-    font-weight: bold;
-    text-align: center;
-     
+    padding: 0.2em 0 0.2em 0;
 }
-.citations {background-color: rgba(202, 136, 147, 0.303);
-    border: 2px solid rgba(202, 136, 147);
 
-}
-.citations p{
+header aside{
     font-family: 'Satisfy', cursive;
-      font-size: 2em;
-    text-align: center;
-    padding: 2em;
+    font-size: 2em;    
+    padding-bottom: 0.5em;
 }
 
-aside {
-    text-align: right;
-    font-size: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-family: arial;
-    }
-
-span {
-    font-style: italic;
-}
-
-.photos
-{ display: flex;
-    flex-wrap: wrap;
-    padding-left: 3%;
-    margin-top: 3em;
-    
-    }
-
-.photos__image
-{   
-    border: 2px solid black;
-    width: 22%;
-    margin: 10px;
+header ul{
+    display: flex;
     justify-content: space-between;
-    
+    margin: 0 10em 0 10em;
+    padding-bottom: 1em;
 }
 
-img {
-    filter: grayscale(10);
+/* Container */
+.container{
+    width: 50%;
+    margin: auto;
+    background-color:rgb(104, 179, 223);
+}
+
+h2 {
+    
 }
