@@ -1,6 +1,7 @@
 
 body {
     background-color:rgb(104, 179, 223);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* Header */
 header{
@@ -29,11 +30,106 @@ header ul{
 
 /* Container */
 .container{
-    width: 50%;
+    width: 100%;
     margin: auto;
     background-color:rgb(104, 179, 223);
+    display: flex;
 }
 
-h2 {
+h2{
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 1em;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 25px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.presentation {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgb(13, 110, 201)
+}
+
+.competences {
+    width: 30%;
+}
+.competences li {
+    list-style-type: disc;
+    padding: 0.5em;
+    text-align: center;
     
 }
+
+.experience {
+    width: 30%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-right: 2px solid rgb(13, 110, 201);
+    border-left: 2px solid rgb(13, 110, 201)
+}
+
+.formation {
+    width: 30%;
+    padding-right: 5%;
+}
+
+.experience h3{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.experience aside {
+    font-style: italic;
+    text-align: right;
+    padding: 0.3em;
+}
+.experience p {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+.liste__competences{
+    list-style-type: circle;
+    padding-top: 0.5em;
+    line-height: 1.2em;
+    border-bottom: 2px solid rgb(13, 110, 201);
+    padding-bottom: 0.5em;
+}
+
+.formation h3{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.formation aside {
+    font-style: italic;
+    text-align: right;
+    padding: 0.3em;
+}
+.formation p {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 1.5em;
+    border-bottom: 2px solid rgb(13, 110, 201);
+    margin-left: 5%;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid rgb(13, 110, 201);
+    padding: 1em;
+    position: fixed;
+}
+
